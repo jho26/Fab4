@@ -10,13 +10,7 @@ namespace _5051.Controllers
     {
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult Help()
-        {
-            ViewBag.Message = "This is the help page.";
-
+            ViewBag.Message = "This is the main index page";
             return View();
         }
 
