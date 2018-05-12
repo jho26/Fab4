@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5051", "5051\5051.csproj", "{3FB6DFE6-43FD-48FD-A214-3A80AB883CBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fab5 - SUperNova", "5051\Fab5 - SUperNova.csproj", "{3FB6DFE6-43FD-48FD-A214-3A80AB883CBB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5051.Tests", "5051.Tests\5051.Tests.csproj", "{B1CC422F-5510-4A5B-8B4E-CDCB37FEDE8D}"
 EndProject

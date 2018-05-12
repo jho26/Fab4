@@ -99,9 +99,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\5051\5051.csproj">
+    <ProjectReference Include="..\5051\Fab5 - SUperNova.csproj">
       <Project>{3FB6DFE6-43FD-48FD-A214-3A80AB883CBB}</Project>
-      <Name>5051</Name>
+      <Name>Fab5 - SUperNova</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
