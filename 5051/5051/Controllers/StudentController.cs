@@ -6,25 +6,20 @@ using System.Web.Mvc;
 
 namespace _5051.Controllers
 {
-    public class StatusController : Controller
+    public class StudentController : Controller
     {
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Help()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "This is the help page.";
 
             return View();
         }
 
-        public ActionResult Project()
-        {
-            ViewBag.Message = "Your contact page.";
 
-            return View();
-        }
     }
 }
