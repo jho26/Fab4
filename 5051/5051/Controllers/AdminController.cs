@@ -6,20 +6,22 @@ using System.Web.Mvc;
 
 namespace _5051.Controllers
 {
-    public class HomeController : Controller
+    public class AdminController : Controller
     {
+
         public ActionResult Index()
         {
+            ViewBag.Message = "This is the Admin Control Panel.";
+
             return View();
         }
 
-        public ActionResult Help()
+        public ActionResult Login()
         {
-            ViewBag.Message = "This is the help page.";
+            ViewBag.Message = "This is the Admin login page.";
 
             return View();
         }
-
 
     }
 }
