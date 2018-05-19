@@ -1,0 +1,17 @@
+﻿@using _5051.Models
+@model LoginViewModel
+
+<h2>@ViewBag.Title</h2>
+<div class="row">
+<h1>@ViewBag.Message</h1>
+<img src="/Content/images/Modify options.png" class="img-responsive">
+	<ul class="nav nav-pills nav-stacked">
+		<li>@Html.ActionLink("Override Calendar", "EditCalendar", "Admin")</li>
+		<li>@Html.ActionLink("Edit Attendance", "EditAttendance", "Admin")</li>
+        <li>@Html.ActionLink("Unenroll Student", "Unenroll", "Admin")</li>
+	</ul>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
